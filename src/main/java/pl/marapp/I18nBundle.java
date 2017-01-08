@@ -47,6 +47,10 @@ public class I18nBundle {
         return Locale.getDefault();
     }
 
+    public ResourceBundle getResourceBundle() {
+        return resourceBundle;
+    }
+
     public static I18nBundle getInstance() {
         if(instance == null) {
             new I18nBundle();

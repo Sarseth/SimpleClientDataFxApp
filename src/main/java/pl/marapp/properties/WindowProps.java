@@ -6,5 +6,4 @@ public class WindowProps {
 
 	public static final double HEIGHT = 700d;
 
-	public static final String TITLE = "Marylaw app";
 }
