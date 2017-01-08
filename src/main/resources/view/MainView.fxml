@@ -12,17 +12,17 @@
             <children>
                 <MenuBar prefHeight="5.0" prefWidth="1200.0">
                     <menus>
-                        <Menu mnemonicParsing="false" text="File">
+                        <Menu mnemonicParsing="false" text="%menu.file">
                             <items>
                                 <MenuItem mnemonicParsing="false" text="%menuItem.closeBtn" onAction="#closeApp"/>
                             </items>
                         </Menu>
-                        <Menu mnemonicParsing="false" text="Statistics">
+                        <Menu mnemonicParsing="false" text="%menu.statistics">
                             <items>
                                 <MenuItem mnemonicParsing="false" text="" />
                             </items>
                         </Menu>
-                        <Menu mnemonicParsing="false" text="About"/>
+                        <Menu mnemonicParsing="false" text="%menu.about"/>
                     </menus>
                 </MenuBar>
             </children>
