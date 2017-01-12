@@ -17,12 +17,12 @@
                                 <MenuItem mnemonicParsing="false" text="%menuItem.closeBtn" onAction="#closeApp"/>
                             </items>
                         </Menu>
-                        <Menu mnemonicParsing="false" text="%menu.statistics">
+                        <Menu mnemonicParsing="false" text="%menu.statistics"/>
+                        <Menu mnemonicParsing="false" text="%menu.help">
                             <items>
-                                <MenuItem mnemonicParsing="false" text="" />
+                                <MenuItem mnemonicParsing="false" text="%menuItem.about" onAction="#handleAbout"/>
                             </items>
                         </Menu>
-                        <Menu mnemonicParsing="false" text="%menu.about"/>
                     </menus>
                 </MenuBar>
             </children>
