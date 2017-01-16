@@ -6,6 +6,6 @@ public class Locales {
 
     public static final Locale ENGLISH = Locale.ENGLISH;
 
-    public static final Locale POLISH = new Locale("Polish", "Poland");
+    public static final Locale POLISH = new Locale("pl", "PL");
 
 }

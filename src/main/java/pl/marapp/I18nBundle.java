@@ -6,6 +6,8 @@ import java.util.Locale;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
+import pl.marapp.properties.Locales;
+
 public class I18nBundle {
 
     private static I18nBundle instance;
@@ -61,10 +63,10 @@ public class I18nBundle {
     private static class ResourceBundleControl extends ResourceBundle.Control {
         @Override
         public List<Locale> getCandidateLocales(String baseName, Locale locale) {
-            if(Objects.equals(locale, Locale.ENGLISH)) {
+            if(Objects.equals(locale, Locale.ENGLISH) || Objects.equals(locale, Locale.US)) {
                 return Collections.singletonList(Locale.ROOT);
             } else {
-                return Collections.singletonList(locale);
+                return Collections.singletonList(Locales.POLISH);
             }
         }
     }
