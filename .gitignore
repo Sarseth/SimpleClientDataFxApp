@@ -75,3 +75,5 @@ modules.xml
 hs_err_pid*
 
 0
+
+src/main/java/ch/*
